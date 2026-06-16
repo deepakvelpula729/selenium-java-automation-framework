@@ -1,0 +1,320 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 11 20:27:59 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109662 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Advance_Selenium_.TC_004_.shoppingCart()'><b>shoppingCart</b><br>Test class: Advance_Selenium_.TC_004_<br/>
+<a href="#Output-729329594" onClick='toggleBox("Output-729329594", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-729329594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-729329594">
+Navigated to Shopping cart Page Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Advance_Selenium_.TC_004_@75d4a5c2</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_010_.Compareproducts()'><b>Compareproducts</b><br>Test class: Advance_Selenium_.TC_010_<br/>
+<a href="#Output-1847281080" onClick='toggleBox("Output-1847281080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1847281080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1847281080">
+Successfully Navigated to Compare products page<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>Advance_Selenium_.TC_010_@54d9d12d</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_012_.ContactUs()'><b>ContactUs</b><br>Test class: Advance_Selenium_.TC_012_<br/>
+<a href="#Output-1969994415" onClick='toggleBox("Output-1969994415", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1969994415" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1969994415">
+Successfully Navigated to Contact Us page<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>Advance_Selenium_.TC_012_@292b08d6</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_017_.Add_New_Address()'><b>Add_New_Address</b><br>Test class: Advance_Selenium_.TC_017_<br/>
+<a href="#Output-192218227" onClick='toggleBox("Output-192218227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-192218227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-192218227">
+Successfully Navigated to My account - Addresses page<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Advance_Selenium_.TC_017_@c730b35</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_020_.orders()'><b>orders</b><br>Test class: Advance_Selenium_.TC_020_<br/>
+<a href="#Output-127283742" onClick='toggleBox("Output-127283742", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-127283742" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-127283742">
+Successfully Navigated to Thank you page<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>Advance_Selenium_.TC_020_@38425407</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_001_.tocheckbookspage()'><b>tocheckbookspage</b><br>Test class: Advance_Selenium_.TC_001_<br/>
+<a href="#Output-1391830908" onClick='toggleBox("Output-1391830908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1391830908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1391830908">
+Navigated succesfully to Books Page <br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Advance_Selenium_.TC_001_@206a70ef</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_008_.ComputerAndInternet()'><b>ComputerAndInternet</b><br>Test class: Advance_Selenium_.TC_008_<br/>
+<a href="#Output-326773524" onClick='toggleBox("Output-326773524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-326773524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326773524">
+Successfully Navigated to Computing and Internet page<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>Advance_Selenium_.TC_008_@702657cc</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_005_.sendMail()'><b>sendMail</b><br>Test class: Advance_Selenium_.TC_005_<br/>
+<a href="#Output-432193005" onClick='toggleBox("Output-432193005", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-432193005" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-432193005">
+Succesfully Your message has been sent<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Advance_Selenium_.TC_005_@13c9d689</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_016_.aad()'><b>aad</b><br>Test class: Advance_Selenium_.TC_016_<br/>
+<a href="#Output-1678512835" onClick='toggleBox("Output-1678512835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1678512835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1678512835">
+Successfully Navigated to My account - Change password page<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>Advance_Selenium_.TC_016_@7c7a06ec</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_011_.Allproducttags()'><b>Allproducttags</b><br>Test class: Advance_Selenium_.TC_011_<br/>
+<a href="#Output-2096492410" onClick='toggleBox("Output-2096492410", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2096492410" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2096492410">
+Successfully Navigated to All product tags page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Advance_Selenium_.TC_011_@22555ebf</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_007_.wishList()'><b>wishList</b><br>Test class: Advance_Selenium_.TC_007_<br/>
+<a href="#Output-6263791" onClick='toggleBox("Output-6263791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6263791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6263791">
+Successfully Navigated to Wishlist page<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Advance_Selenium_.TC_007_@408d971b</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_003_.toCheckShoppingCartPage()'><b>toCheckShoppingCartPage</b><br>Test class: Advance_Selenium_.TC_003_<br/>
+<a href="#Output-1681320519" onClick='toggleBox("Output-1681320519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681320519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681320519">
+Navigated to Computers Page Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Advance_Selenium_.TC_003_@36ebc363</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_015_.AddtocartMultileItems()'><b>AddtocartMultileItems</b><br>Test class: Advance_Selenium_.TC_015_<br/>
+<a href="#Output-1364246018" onClick='toggleBox("Output-1364246018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1364246018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1364246018">
+Successfully Navigated to Shopping cart page<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>Advance_Selenium_.TC_015_@557caf28</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_018_.s()'><b>s</b><br>Test class: Advance_Selenium_.TC_018_<br/>
+<a href="#Output-1793123891" onClick='toggleBox("Output-1793123891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1793123891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1793123891">
+Successfully Navigated to Message sent page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>Advance_Selenium_.TC_018_@6c6cb480</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_002_.tocheckComputersPage()'><b>tocheckComputersPage</b><br>Test class: Advance_Selenium_.TC_002_<br/>
+<a href="#Output-2039801831" onClick='toggleBox("Output-2039801831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2039801831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2039801831">
+Navigated to Computers Page Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Advance_Selenium_.TC_002_@34e9fd99</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_006_.checkOut()'><b>checkOut</b><br>Test class: Advance_Selenium_.TC_006_<br/>
+<a href="#Output-386154429" onClick='toggleBox("Output-386154429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-386154429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-386154429">
+Successfully Navigated to Checkout page<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Advance_Selenium_.TC_006_@3c46e67a</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_014_.NewProducts()'><b>NewProducts</b><br>Test class: Advance_Selenium_.TC_014_<br/>
+<a href="#Output-171071631" onClick='toggleBox("Output-171071631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-171071631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-171071631">
+Successfully Navigated to New products page<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>Advance_Selenium_.TC_014_@45752059</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_013_.Search()'><b>Search</b><br>Test class: Advance_Selenium_.TC_013_<br/>
+<a href="#Output-1420599985" onClick='toggleBox("Output-1420599985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1420599985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1420599985">
+Successfully Navigated to Copy of Computing and Internet EX page<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>Advance_Selenium_.TC_013_@3c41ed1d</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_009_.TopMenu()'><b>TopMenu</b><br>Test class: Advance_Selenium_.TC_009_<br/>
+<a href="#Output-696001185" onClick='toggleBox("Output-696001185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-696001185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-696001185">
+Successfully Navigated to Gift Cards page<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>Advance_Selenium_.TC_009_@43bc63a3</td></tr>
+<tr>
+<td title='Advance_Selenium_.TC_019_.Comment()'><b>Comment</b><br>Test class: Advance_Selenium_.TC_019_<br/>
+<a href="#Output-1461587809" onClick='toggleBox("Output-1461587809", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1461587809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1461587809">
+Successfully Navigated to Customer Service - Client Service page<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>Advance_Selenium_.TC_019_@6a6cb05c</td></tr>
+</table><p>
+</body>
+</html>

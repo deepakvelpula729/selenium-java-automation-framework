@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <groups>
+    <run>
+     <include name="system"></include>
+    </run>
+   </groups>
+    <classes>
+      <class name="Advance_Selenium_.TC_005_"/>
+      <class name="Advance_Selenium_.TC_016_"/>
+      <class name="Advance_Selenium_.TC_004_"/>
+      <class name="Advance_Selenium_.TC_015_"/>
+      <class name="Advance_Selenium_.TC_007_"/>
+      <class name="Advance_Selenium_.TC_018_"/>
+      <class name="Advance_Selenium_.TC_006_"/>
+      <class name="Advance_Selenium_.TC_017_"/>
+      <class name="Advance_Selenium_.TC_001_"/>
+      <class name="Advance_Selenium_.TC_012_"/>
+      <class name="Advance_Selenium_.TC_011_"/>
+      <class name="Advance_Selenium_.TC_003_"/>
+      <class name="Advance_Selenium_.TC_014_"/>
+      <class name="Advance_Selenium_.TC_002_"/>
+      <class name="Advance_Selenium_.TC_013_"/>
+      <class name="Advance_Selenium_.TC_010_"/>
+      <class name="Advance_Selenium_.TC_020_"/>
+      <class name="Advance_Selenium_.TC_009_"/>
+      <class name="Advance_Selenium_.TC_008_"/>
+      <class name="Advance_Selenium_.TC_019_"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
